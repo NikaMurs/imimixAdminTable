@@ -97,9 +97,11 @@ body{
 
 .menuList{
     background-color: #006D9C;
-    width: calc((100% / 5) - 2px);
+    width: calc(100% / 5);
     height: 50px;
     text-align: center;
+    border: solid 1px #FFFFFF;
+    z-index: 1;
 }
 
 .menuItem{
@@ -126,12 +128,13 @@ body{
 
 .submenuList{
     background-color: #006D9C;
-    width: calc(100% - 10px);
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     height: 50px;
     text-align: center;
-    margin-top: 1px;
+    border-top: solid 1px #FFFFFF;
+    border-bottom: solid 1px #FFFFFF;
 }
 
 .submenuList a{
@@ -145,25 +148,26 @@ body{
     font-size: 20px;
 }
 
+.submenuList:hover{
+    background-color: #009BE2;
+}
+
+
 .submenuListOff a{
     color: #868686;
 }
 
-.submenuList:hover{
-    background-color: #009BE2;
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 5px;
-    padding-right: 5px;
+.submenuListOff:hover{
+    background-color: #006D9C;
 }
-
 
 .adminTableBlock{
     margin-top: 50px
 }
 
 .adminTable{
-	width: 100%;
+	width: calc(100% - 2px);
+    margin: 1px;
     border: 1px solid black;
     border-collapse: collapse;
     text-align: center;
