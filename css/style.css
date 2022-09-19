@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapperHeader{
+    background-color: #767676;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blockHeader{
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+}
+
+.logoHeader{
+    margin-left: 60px;
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.09);
+    text-transform: uppercase;
+}
+
+.photographNameHeader{
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: -0.035em;
+    color: #FFFFFF;
+    margin-left: 30px;
+}
+
+.exitHeader{
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #F0F0F0;
+    text-decoration: none;
+    padding: 8px 15px;
+    margin-right: 15px;
+}
+
+.exitHeader:hover{
+    background: linear-gradient(180deg, #898989 0%, rgba(137, 137, 137, 0) 117.57%)
+}
+
+.helpHeader{
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #F0F0F0;
+    margin-right: 60px;
+    text-decoration: none;
+    padding: 8px 15px;
+}
+
+.helpHeader:hover{
+    background: linear-gradient(180deg, #898989 0%, rgba(137, 137, 137, 0) 117.57%)
+}
+
+.adminMain{
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.adminMenuBlock{
+    width: 100%;
+}
+
+.adminMenu{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.menuList{
+    background-color: #006D9C;
+    width: calc((100% / 5) - 2px);
+    height: 50px;
+    text-align: center;
+}
+
+.menuItem{
+    line-height: 50px;
+    text-transform: uppercase;
+    color:#FFFFFF;
+    text-decoration: none;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.submenu{
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    display: none;
+}
+
+.submenuActive{
+    display: block;
+}
+
+.submenuList{
+    background-color: #006D9C;
+    width: calc(100% - 10px);
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    text-align: center;
+    margin-top: 1px;
+}
+
+.submenuList a{
+    line-height: 50px;
+    text-transform: uppercase;
+    color:#FFFFFF;
+    text-decoration: none;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.submenuListOff a{
+    color: #868686;
+}
+
+.submenuList:hover{
+    background-color: #009BE2;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+.adminTableBlock{
+    margin-top: 50px
+}
+
+.adminTable{
+	width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+
+.adminTable th{
+    padding: 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.adminTable td{
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.adminTableText{
+    display: inline-block;
+    font-size: 20px;
+    width: calc(100% - 154px - 19px);
+}
+
+.adminTableButton{
+    background: none;
+    border: solid 1px #007EB8;
+    color: #007EB8;
+    margin-right: 15px;
+    width: 154px;
+}
+
+.adminGroupIndicators{
+    margin-top: 70px;
+}
+
+.adminGroupIndicator{
+    margin-top: 30px;
+}
+
+.adminIndicatorHeader{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.adminIndicatorHeader p{
+    margin: 0;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.adminIndicatorTable{
+	width: 100%;
+    height: 45px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+
+.adminIndicatorTable th{
+    padding: 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.adminIndicatorTable td{
+    width: 200px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.adminFooter{
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.adminFooterMenu{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.menuFooterList{
+    background-color: #006D9C;
+    width: calc((100% / 4) - 2px);
+    height: 50px;
+    text-align: center;
+}
+
+.menuFooterItem{
+    line-height: 50px;
+    text-transform: uppercase;
+    color:#FFFFFF;
+    text-decoration: none;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
